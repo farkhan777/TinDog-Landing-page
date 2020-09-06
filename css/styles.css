@@ -1,0 +1,195 @@
+/* Navbar Section */
+
+body{
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+}
+
+.title-bg{
+    background-color: #ff4c68;
+}
+
+.white-color{
+    color: white;
+}
+
+.container-fluid{
+    padding: 3% 15% 9%;
+}
+
+.navbar-padding{
+    padding: 0rem 0rem 4.5rem 0rem;
+}
+
+.navbar-brand{
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+#asize{
+    font-size: 2rem;
+    font-weight: 600;
+}
+
+.nav-link{
+    font-size: 1.2rem;
+    font-family: 'Montserrat-Light', sans-serif;
+}
+
+.navbar-item{
+    padding: 0px 18px;
+}
+
+/* Title Section */
+
+h1, h1, h3, h4, h5 ,h6{
+    font-family: 'Montserrat', sans-serif;
+}
+
+h3{
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+.big-heading{
+    font-size: 3rem;
+    font-weight: 900;
+    line-height: 5rem;
+}
+
+.title-left{
+    text-align: left;
+}
+
+.trans{
+    width: 60%;
+    transform: rotate(25deg);
+}
+
+.download-btn{
+    margin: 5% 3% 5% 0;
+}
+
+.zIndex{
+    position: absolute;
+    right: 30%;
+}
+
+/* Features Section */
+
+#features{
+    background-color: white;
+    position: relative;
+    z-index: 1;
+}
+
+.colorP{
+    padding: 0rem 1rem 0rem 1rem;
+}
+
+.icon-color{
+    color: #ef8172;
+    margin-bottom: 1rem;
+}
+
+.icon-color:hover{
+    color: #ff4c68;
+}
+
+.container-fluid2{
+    padding: 7% 15%;
+}
+
+.features-marg{
+    margin: 0rem;
+}
+
+/* Testimonial Section */
+
+h2{
+    font-weight: 700;
+    font-size: 2.5rem;
+    line-height: 4rem;
+}
+
+.testimonial-bg{
+    background-color: #ef8172;
+}
+
+.testimonial-image{
+    width: 10%;
+    border-radius: 100%;
+    margin: 20px;
+}
+
+/* Press Section */
+
+#press{
+    padding-bottom: 3%;
+}
+
+.press-images{
+    width: 15%;
+    margin: 20px 20px 40px;
+}
+
+/* Pricing Section */
+
+#pricing{
+    padding: 100px;
+}
+
+.pricing-col{
+    padding: 3% 2%;
+}
+
+/* Call to Action Section */
+
+#cta{
+    padding: 7% 10%;
+}
+
+.download-btn2{
+    margin: 5% 1.5% 5%;
+}
+
+.pad{
+    font-size: 3.5rem;
+    line-height: 1.5;
+}
+
+/* Footer Section */
+
+#footer{
+    background-color: white;
+}
+
+.icon-pad{
+    padding: 1%;
+}
+
+.colorP2{
+    color: #8f8f8f;
+}
+
+#footer .colorP2{
+    margin-top: 1rem;
+}
+
+/* Media Query for mobile size */
+
+@media (max-width : 1028px){
+    .zIndex{
+        position: static;
+    }
+    .trans{
+        transform: rotate(0);
+    }
+    .navbar-padding{
+        text-align: right;
+    }
+    .row{
+        text-align: center;
+    }
+}
